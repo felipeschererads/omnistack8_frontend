@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: process.env.BACKEND
+  baseURL: 'https://backend-tindev-fscherer.herokuapp.com'
 })
 
 export default api;
